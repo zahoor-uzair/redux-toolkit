@@ -25,7 +25,8 @@ const counterSlice = createSlice({
       state.step = action.payload;
     },
     reset: (state) => {
-      state.value = 0;
+      // state.value = 0;
+      return { ...initialState };
     },
   },
 });

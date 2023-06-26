@@ -1,3 +1,5 @@
+//  npm install react-redux redux @reduxjs/toolkit
+
 // store.ts
 import { configureStore } from "@reduxjs/toolkit";
 import counterReducer from "../reducers/counter";
